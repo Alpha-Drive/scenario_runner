@@ -6,3 +6,4 @@ Scenarios/__pycache__/
 *.txt
 .project
 .pydevproject
+_out

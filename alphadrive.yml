@@ -1,0 +1,17 @@
+description: AlphaDrive Agent Configuration
+global: {}
+profiles:
+  default:
+    simulator: carla
+    map: /Game/Carla/Maps/Town03
+    benchmark: true
+    fps: 20
+    launch_command: python -u scenario_runner.py --host=$SIM_HOST --port=$SIM_PORT --scenario ControlLoss --output
+  manual:
+    simulator: carla
+    map: /Game/Carla/Maps/Town05
+    launch_command: python -u ../manual_control.py --host=$SIM_HOST --port=$SIM_PORT --res=640x480
+  tutorial:
+    simulator: carla
+    launch_command: python -u tutorial.py
+    map: /Game/Carla/Maps/Town05
