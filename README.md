@@ -3,7 +3,9 @@ AlphaDrive Demonstration based on ScenarioRunner for CARLA
 ALPHADRIVE SAMPLES
 ===========
 
-In this folder, you have an alphadrive.yml that defines a few profiles you can test out.
+In this folder, you have an alphadrive.yml that defines a few profiles you can test out. 
+
+Note that the AlphaDrive docker image used to execute the code contains all the dependencies of this project, so the only requirement is that your Mac or Linux host has a recent version of docker installed.
 
 After you have installed the `alpha` command using:
 
