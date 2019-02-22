@@ -15,9 +15,9 @@ Then authorize your CLI with `alpha login`.
 
 You can now run any of the provided profiles:
 
-- *default* will run a scored 'Control Loss' scenario from this repository.
-- *manual* will launch a window where you can control the simulator's ego vehicle
-- *tutorial* runs some code that creates a few vehicles in the world, samples their sensors and saves them into a folder called `_out _`
+- `alpha drive default` will run a scored 'Control Loss' scenario from this repository.
+- `alpha drive manual` will launch a window where you can control the simulator's ego vehicle
+- `alpha drive tutorial` runs some code that creates a few vehicles in the world, samples their sensors and saves them into a folder called `_out _`
 
 CARLA NOTES
 ========================
