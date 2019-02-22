@@ -15,7 +15,7 @@ bash <(curl -o - https://raw.githubusercontent.com/Alpha-Drive/alpha-command/mas
 
 Then authorize your CLI with `alpha login`.
 
-You can now run any of the provided profiles:
+You can now run any of the provided profiles in this work area's folder:
 
 - `alpha drive default` will run a scored 'Control Loss' scenario from this repository.
 - `alpha drive manual` will launch a window where you can control the simulator's ego vehicle
