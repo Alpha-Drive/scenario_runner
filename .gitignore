@@ -6,3 +6,4 @@ Scenarios/__pycache__/
 .project
 .pydevproject
 _out
+*.pyc
